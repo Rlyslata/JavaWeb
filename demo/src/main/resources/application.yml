@@ -1,0 +1,42 @@
+
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+
+  typeAliasesPackage: com.demo.entity
+  mapperLocations: classpath:mapper/*.xml
+
+
+
+
+
+
+---
+
+
+spring:
+  profiles: dev
+  #热部署生效
+  devtools:
+    restart:
+      enabled: true
+      #设置重启的目录,添加那个目录的文件需要restart
+      additional-paths: src/main/java
+      exclude: WEB-INF/**
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: a387712a
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML5
