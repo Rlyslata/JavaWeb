@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="Supermarket">
+		<class>com.ecust.xgp.domain.Cgd</class>
+		<class>com.ecust.xgp.domain.Cgmx</class>
+		<class>com.ecust.xgp.domain.Gly</class>
+		<class>com.ecust.xgp.domain.Gn</class>
+		<class>com.ecust.xgp.domain.Gys</class>
+		<class>com.ecust.xgp.domain.Hy</class>
+		<class>com.ecust.xgp.domain.Hybl</class>
+		<class>com.ecust.xgp.domain.Jfsp</class>
+		<class>com.ecust.xgp.domain.Js</class>
+		<class>com.ecust.xgp.domain.Jsgn</class>
+		<class>com.ecust.xgp.domain.Sp</class>
+		<class>com.ecust.xgp.domain.Xsd</class>
+		<class>com.ecust.xgp.domain.Xsmx</class>
+		<class>com.ecust.xgp.domain.Yg</class>
+		<class>com.ecust.xgp.domain.Ygrz</class>
+		<class>com.ecust.xgp.domain.Yhsp</class>
+	</persistence-unit>
+</persistence>
